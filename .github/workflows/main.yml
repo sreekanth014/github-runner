@@ -6,5 +6,5 @@ jobs:
   init:
     runs-on: self-hosted
     steps:
-      - run: 'Hello from Devops tool'
+      - run: echo 'Hello from Devops tool'
       - run: echo $HOSTNAME
